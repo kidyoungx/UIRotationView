@@ -1,0 +1,16 @@
+PODS:
+  - UIRotationView (1.0.1)
+
+DEPENDENCIES:
+  - UIRotationView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UIRotationView
+
+SPEC CHECKSUMS:
+  UIRotationView: c027aa44ff81080ecf25cd3f27589369f4748831
+
+PODFILE CHECKSUM: efa121e1fa448ac57992cfc891716769047240cd
+
+COCOAPODS: 1.5.3

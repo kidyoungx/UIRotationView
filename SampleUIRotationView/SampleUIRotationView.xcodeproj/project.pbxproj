@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F67D1A3786E494779F6BA50 /* libPods-SampleUIRotationView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C38263AA94AED62778229B /* libPods-SampleUIRotationView.a */; };
 		A77A3A382205B4E600E1CB3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77A3A372205B4E600E1CB3E /* AppDelegate.m */; };
 		A77A3A3B2205B4E600E1CB3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77A3A3A2205B4E600E1CB3E /* ViewController.m */; };
 		A77A3A3E2205B4E600E1CB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77A3A3C2205B4E600E1CB3E /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72C38263AA94AED62778229B /* libPods-SampleUIRotationView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleUIRotationView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F538A526E6CB66BB9CD64CF /* Pods-SampleUIRotationView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleUIRotationView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleUIRotationView/Pods-SampleUIRotationView.debug.xcconfig"; sourceTree = "<group>"; };
 		A77A3A332205B4E600E1CB3E /* SampleUIRotationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleUIRotationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77A3A362205B4E600E1CB3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A77A3A372205B4E600E1CB3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		A77A3A422205B4E700E1CB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A77A3A442205B4E700E1CB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A77A3A452205B4E700E1CB3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E397444A4591A693582DA50B /* Pods-SampleUIRotationView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleUIRotationView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleUIRotationView/Pods-SampleUIRotationView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F67D1A3786E494779F6BA50 /* libPods-SampleUIRotationView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D4C660DAAE76D6B80E42F16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F538A526E6CB66BB9CD64CF /* Pods-SampleUIRotationView.debug.xcconfig */,
+				E397444A4591A693582DA50B /* Pods-SampleUIRotationView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F2E9E3BCE9A31D0D640DE66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72C38263AA94AED62778229B /* libPods-SampleUIRotationView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A77A3A2A2205B4E600E1CB3E = {
 			isa = PBXGroup;
 			children = (
 				A77A3A352205B4E600E1CB3E /* SampleUIRotationView */,
 				A77A3A342205B4E600E1CB3E /* Products */,
+				0D4C660DAAE76D6B80E42F16 /* Pods */,
+				9F2E9E3BCE9A31D0D640DE66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77A3A492205B4E700E1CB3E /* Build configuration list for PBXNativeTarget "SampleUIRotationView" */;
 			buildPhases = (
+				CD5718891300F287D3960135 /* [CP] Check Pods Manifest.lock */,
 				A77A3A2F2205B4E600E1CB3E /* Sources */,
 				A77A3A302205B4E600E1CB3E /* Frameworks */,
 				A77A3A312205B4E600E1CB3E /* Resources */,
@@ -135,6 +160,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD5718891300F287D3960135 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleUIRotationView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A77A3A2F2205B4E600E1CB3E /* Sources */ = {
@@ -283,6 +333,7 @@
 		};
 		A77A3A4A2205B4E700E1CB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F538A526E6CB66BB9CD64CF /* Pods-SampleUIRotationView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +350,7 @@
 		};
 		A77A3A4B2205B4E700E1CB3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E397444A4591A693582DA50B /* Pods-SampleUIRotationView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
